@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynoPhile", "DynoPhile\DynoPhile.csproj", "{75B4B2D1-417D-4F25-907C-DC4413028C45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynoPhile.Specs", "DynoPhile.Specs\DynoPhile.Specs.csproj", "{FDB145BE-0816-4CC3-88F9-6412ACD30B32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{75B4B2D1-417D-4F25-907C-DC4413028C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75B4B2D1-417D-4F25-907C-DC4413028C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75B4B2D1-417D-4F25-907C-DC4413028C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB145BE-0816-4CC3-88F9-6412ACD30B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB145BE-0816-4CC3-88F9-6412ACD30B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB145BE-0816-4CC3-88F9-6412ACD30B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB145BE-0816-4CC3-88F9-6412ACD30B32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
