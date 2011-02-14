@@ -7,12 +7,12 @@ Warning - this is a toy and experimental code. Perhaps it will turn into somethi
 ## Usage:
 First, add a reference to DynoPhile.dll  
 For a file with a header: make the call:  
-```csharp  
+<pre>
 var magic = new DynoPhile().ReadFile(fileName, ",");  
-```
+</pre>
 
 for a file without a header, you can supply your own function to build out the dynamic properties:  
-```csharp  
+<pre>  
 public class DoMagic()
 {
 	var magic = new DynoPhile().ReadFile(fileName, "|", BuildProperties);
@@ -28,4 +28,4 @@ private static dynamic BuildProperties()
 
 	return header;
 }
-```
+</pre>
