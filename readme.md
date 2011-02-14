@@ -12,14 +12,12 @@ var magic = new DynoPhile().ReadFile(fileName, ",");
 ```
 
 for a file without a header, you can supply your own function to build out the dynamic properties:  
-
 ```csharp
 public class DoMagic()
 {
 	var magic = new DynoPhile().ReadFile(fileName, "|", BuildProperties);
 }
 		
-	
 private static dynamic BuildProperties()
 {
 	dynamic header = new ExpandoObject();
