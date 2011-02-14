@@ -39,6 +39,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\ProjectVersion.cs">
+      <Link>Properties\ProjectVersion.cs</Link>
+    </Compile>
     <Compile Include="DynoPhileTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

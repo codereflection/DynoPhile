@@ -90,7 +90,7 @@ namespace DynoPhile.Specs
         };
 
         Because of = () =>
-            result = dyno.ReadFile(fileName, delimitor, BuildHeader);
+            result = dyno.ReadFile(fileName, delimitor, BuildProperties);
 
         It should_have_a_result = () =>
             result.ShouldNotBeNull();
@@ -107,7 +107,7 @@ namespace DynoPhile.Specs
         It should_have_the_first_email_address = () =>
             (result.First().TwitterHandle as string).ShouldEqual("codereflection");
 
-        private static dynamic BuildHeader()
+        private static dynamic BuildProperties()
         {
             dynamic header = new ExpandoObject();
 
