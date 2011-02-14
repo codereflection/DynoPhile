@@ -29,3 +29,21 @@ private static dynamic BuildProperties()
 	return header;
 }
 </pre>
+
+so given an example CSV file:
+
+<pre>
+"FirstName","LastName","Twitter"
+"Jeff","Schumacher","codereflection"
+"Bobby","Johnson","notmyself"
+"Eric","Ridgeway","ang3lfir3"
+</pre>
+
+DynoPhile will give you dynamic awesome in return:
+
+<pre>
+foreach (var item in magic)
+{
+	Console.WriteLine("{0} {1}, @{2}", item.FirstName, item.LastName, item.Twitter);
+}
+</pre>
